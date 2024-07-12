@@ -1,0 +1,59 @@
+/* AddUserForm.css */
+.add-user-container {
+    /* Styles for the container div */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-user-container h2 {
+    /* Styles for the heading */
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .add-user-form {
+    /* Styles for the form */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-user-form label {
+    /* Styles for labels */
+    margin-bottom: 8px;
+  }
+  
+  .add-user-form input,
+  .add-user-form textarea,
+  .add-user-form select{
+    /* Styles for input and textarea */
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .add-user-form textarea {
+    /* Additional styles for textarea */
+    resize: vertical;
+  }
+  
+  .add-user-form button {
+    /* Styles for the submit button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-user-form button:hover {
+    /* Hover effect for the button */
+    background-color: #0056b3;
+  }
+  
